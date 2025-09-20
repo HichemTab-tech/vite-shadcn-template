@@ -12,7 +12,7 @@ export default function Home() {
                         <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
                             HichemTab-tech
                         </h1>
-                        <p className="text-xl md:text-2xl text-muted-foreground mb-8">React + Vite + shadcn/ui
+                        <p className="text-xl md:text-2xl text-muted-foreground mb-8">React + Vite + React Router + shadcn/ui
                             Template</p>
                         <div className="w-24 h-1 bg-primary mx-auto rounded-full"></div>
                     </div>
@@ -32,8 +32,22 @@ export default function Home() {
                                                 rel="noopener noreferrer"
                                                 className="text-primary hover:underline"
                                             >
-                                                shadcn/ui Vite installation guide
+                                                 shadcn/ui Vite
                                             </a>
+
+                                            {" "}&{" "}
+
+                                            <a
+                                                href="https://reactrouter.com/start/declarative/routing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-primary hover:underline"
+                                            >
+                                                react router
+                                            </a>
+
+                                            {" "}installation guide
+
                                             . Nothing extra added - just the ready setup so you don't have to go through
                                             the installation
                                             steps yourself!
@@ -56,6 +70,10 @@ export default function Home() {
                                         <span
                                             className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                       TypeScript
+                    </span>
+                                        <span
+                                            className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                      React Router
                     </span>
                                     </div>
                                 </div>
